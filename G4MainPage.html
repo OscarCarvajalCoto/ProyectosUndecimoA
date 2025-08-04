@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation Elixir</title>
+
+
+
+    <style>
+      .link {
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.8;
+        color: inherit;
+      }
+
+      .color-celeste {
+        color: rgb(135, 205, 233);
+      }
+      .color-morado {
+        color: rgb(221, 89, 233);
+      }
+
+
+    .mainDiv {
+    
+    border: 5px solid #222235;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow:
+        -2px -2px 0 #000,
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000,
+         0   -2px 0 #000,
+         0    2px 0 #000,
+        -2px  0   0 #000,
+         2px  0   0 #000;
+    background-image: linear-gradient(to bottom right, #5fc1da, #31427c 70%);
+    border-radius: 15px;
+
+   
+    display: flex;            
+    align-items: center;      
+    justify-content: space-between;
+    flex-wrap: wrap;         
+}
+
+.mainDiv h1 {
+    
+    margin: 0;
+    font-size: 2.5em;
+    
+
+    
+    position: absolute; 
+    left: 50%;          
+    transform: translateX(-50%); 
+    width: fit-content; 
+    max-width: calc(100% - 160px);
+    white-space: nowrap; 
+    
+    
+    text-align: center; 
+}
+
+.mainDiv p {
+    
+    width: 100%; 
+    text-align: center; 
+    margin-top: 10px; 
+    order: 4;
+}
+
+.logo-container {
+    
+    flex-shrink: 0; 
+    order: 1;
+}
+
+.logo-container img {
+    height: 90%;
+    width: 90px;
+    display: block; 
+}
+
+.spacer {
+    
+    flex-grow: 1; 
+    order: 3; 
+    min-width: 60px; 
+}
+    
+
+    .functionDiv {
+        border: 5px solid #222235;    
+        text-align: center;
+        padding: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        text-shadow: 3px 3px 5px #000000;
+        background-image: linear-gradient(to bottom right, #5fc1da, #31427c 65%);
+        border-radius: 15px;
+        width: 25%;
+        margin: 0 auto;
+    }
+
+
+
+    </style>
+</head>
+
+<body style="background-color: #201c1c;">
+
+<div class="mainDiv">
+    <div class="logo-container">
+         <a href="G4MainPage.html">
+            <img src="Logo.png" alt="Website Logo">
+        </a>
+    </div>
+    <h1>Welcome to <span class="color-celeste">Equation</span> <span class="color-morado">Elixir!</span></h1>
+    <div class="spacer"></div> 
+    <br>
+    <p>Donde las funciones cobran sentido. Desata el poder de cada &#402;(x).</p>
+</div>
+
+
+<br>
+<br>
+
+
+<div class="functionDiv">
+
+  <h1><a href="G4lineal.html" class="link">Función Lineal</a></h1>
+  <p>Explora la función matemática y descubre su magia.</p>
+ 
+
+</div>
+
+
+<br><br>
+
+
+<div class="functionDiv">
+
+ <h1><a href="G4cuadratica.html " class="link">Función Cuadrática</a></h1>
+  <p>Explora la función matemática y descubre su magia.</p>
+
+</div>
+
+
+<br><br>
+
+
+<div class="functionDiv">
+
+  <h1><a href="G4exponencial.html" class="link">Función Exponencial</a></h1>
+  <p>Explora la función matemática y descubre su magia.</p>
+
+</div>
+
+
+<br><br>
+
+
+<div class="functionDiv">
+
+  <h1><a href="G4logaritmica.html" class="link">Función Logarítmica</a></h1>
+  <p>Explora la función matemática y descubre su magia.</p>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Función Logarítmica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3, h4, h5 {
+            color: #333;
+        }
+         nav a {
+            color: #ff8c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: block;
+        }
+
+        .box {
+            background-color: #e0f7fa;
+            border: 1px solid #b2ebf2;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 100%;
+            max-width: 800px;
+            margin: 10px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .box:nth-child(2n) {
+            background-color: #ffe0b2;
+        }
+
+        .box:nth-child(3n) {
+            background-color: #d1c4e9;
+        }
+
+        .box:nth-child(4n) {
+            background-color: #c8e6c9;
+        }
+
+        .box:nth-child(5n) {
+            background-color: #ffccbc;
+        }
+
+        .image-container, .table-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Función Logarítmica</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2>Descripción</h2>
+            <p>Una función logarítmica es la inversa de una función exponencial. Representa el exponente al que se debe elevar la base para obtener cierto número.</p>
+            <p>La función logarítmica se representa como:</p>
+            <p style="text-align: center; font-weight: bold;">f(x) = logₐ(x), donde a > 0 y a ≠ 1.</p>
+            <p>Donde:</p>
+            <ul>
+                <li><strong>a</strong>: base</li>
+                <li><strong>x</strong>: argumento</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Dominio y Ámbito:</h3>
+            <p>Dominio: ]0, más infinito[</p>
+            <p>Ámbito: todos los números reales (ℝ)</p>
+        </div>
+        <div class="box">
+            <h3>Características:</h3>
+            <ul>
+                <li>Asíntota: vertical en (x = 0)</li>
+                <li>Intersección con eje x: (1, 0)</li>
+                <li>No interseca el eje y</li>
+                <li>Es biyectiva, su inversa es la función exponencial.</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Comportamiento según la base:</h3>
+            <ul>
+                <li>Si (a > 1) → función creciente</li>
+                <li>Si \(0 < a < 1\) → función decreciente</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <div class="box">
+                <h3>Gráfica</h3>
+                <img src="funcion logaritmica.png" alt="Gráfico de función logarítmica creciente y decreciente"
+                    style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 8px;">
+            </div>
+        </div>
+        <div class="table-container">
+            <div class="box">
+                <h4>Tabla de Valores Logarítmicos</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Valor de x</th>
+                            <th>Valor de f(x)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>0,31</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>0,5</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>0,63</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>0,73</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <h5>Video Explicativo</h5>
+        <video width="500" controls src="Función logaritmica.mp4"></video>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="G5pagprincipal.html">Página principal</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

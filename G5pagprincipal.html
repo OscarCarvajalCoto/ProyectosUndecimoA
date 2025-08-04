@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones Matemáticas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .title-gradient {
+            background: linear-gradient(to right, #00b4db, #0083b0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .nav-link {
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            transform: translateY(-3px);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #00b4db;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .math-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .math-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+
+<body class="flex flex-col items-center justify-center">
+    <div class="w-full max-w-4xl px-4 py-12">
+        <div class="text-center mb-16">
+            <h1 class="text-[#00b4db] text-4xl font-bold mb-8">Funciones Matemáticas</h1>
+        </div>
+
+        <div class="flex flex-col items-center space-y-4">
+            <a href="G5pagfuncionlineal.html" class="nav-link text-lg font-medium hover:text-[#00b4db] transition-colors">Función Lineal</a>
+            <a href="G5pagfuncioncuadratica.html" class="nav-link text-lg font-medium hover:text-[#00b4db] transition-colors">Función Cuadrática</a>
+            <a href="G5pagfuncionexponencial.html" class="nav-link text-lg font-medium hover:text-[#00b4db] transition-colors">Función Exponencial</a>
+            <a href="G5pagfuncionlogaritmica.html" class="nav-link text-lg font-medium hover:text-[#00b4db] transition-colors">Función Logarítmica</a>
+        </div>
+    </div>
+
+    <div class="fixed bottom-0 w-full bg-gray-100 py-4 text-center text-gray-600 text-sm">
+        © 2023 Matemáticas Interactivas - Todos los derechos reservados
+    </div>
+</body>
+
+</html>

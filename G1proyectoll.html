@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto de Matemáticas e Informática</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f7f4f1, #eae6f7);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 20px;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #6a5acd;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(106, 90, 205, 0.2);
+      border-bottom: 3px solid #6a5acd;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .nombres {
+      background-color: #fff8ff;
+      border: 2px dotted #c8a2c8;
+      border-radius: 20px;
+      padding: 30px 50px;
+      margin: 30px 0;
+      box-shadow: 0 8px 20px rgba(190, 170, 255, 0.2);
+      display: inline-block;
+      animation: fadeIn 1.2s ease;
+    }
+
+    .nombres h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #a971c0;
+    }
+
+    .nombres p {
+      margin: 10px 0;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .nombres p::before {
+      content: " ";
+      font-size: 1.1rem;
+      color: #d084f5;
+    }
+
+    .decoraciones {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #c69ff7;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1.5s ease;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #6a5acd;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 10px;
+    }
+
+    a:hover {
+      background-color: #e6e2f0;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #6a5acd;
+      letter-spacing: 1px;
+      background-color: #f0edf9;
+      padding: 10px 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+      animation: fadeIn 2s ease;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .nombres {
+        padding: 20px 30px;
+        font-size: 1rem;
+      }
+
+      nav {
+        width: 90%;
+        padding: 20px;
+      }
+
+      a {
+        font-size: 1rem;
+        padding: 10px;
+      }
+
+      .footer {
+        font-size: 1.1rem;
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Proyecto de Matemáticas e Informática</h1>
+
+  <div class="nombres">
+    <div class="decoraciones"></div>
+    <h2>Estudiantes</h2>
+    <p>Victoria Merayo</p>
+    <p>Gabriela Merayo</p>
+    <p>Jimena Villalobos</p>
+    <div class="decoraciones"></div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="G1pagina1.html">Función lineal</a></li>
+      <li><a href="G1pagina2.html">Función exponencial</a></li>
+      <li><a href="G1pagina3.html">Función logarítmica</a></li>
+      <li><a href="G1pagina4.html">Función cuadrática</a></li>
+    </ul>
+  </nav>
+
+  <div class="footer">Undécimo A</div>
+
+</body>
+</html>
